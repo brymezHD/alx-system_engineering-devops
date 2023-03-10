@@ -1,1 +1,2 @@
-if [ $(stat -c "%U" hello) == "guillaume" ]; then chown betty hello; fi
+#!/bin/bash
+chmod betty : hello
